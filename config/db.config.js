@@ -10,4 +10,4 @@ const db = createPool({
 });
 /** Connection pool creation - END */
 
-module.exports = db;        /**To use through out my project */
+module.exports = db;        /**To use through out my project.*/
