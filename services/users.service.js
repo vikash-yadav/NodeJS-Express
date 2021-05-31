@@ -8,7 +8,7 @@ exports.register = (data, callback) => {
             if(error){
                 return callback(error);
             }
-            retunr callback(null, 'Registration successful');
+            return callback(null, 'Registration successful');
         }
     );
 };
